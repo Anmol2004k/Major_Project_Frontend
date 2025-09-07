@@ -353,6 +353,8 @@ body {
 #chines{ 
     height: 100%;
     width: 50%;
+    padding-right: 4vw;
+ 
 /* background-color: rgb(17, 114, 217); */
 }
 
@@ -364,3 +366,264 @@ body {
  object-position:  top center;
 }
 
+#page4{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 9vh;
+    position: relative;
+}
+#four-con {
+    /* background-color: rgb(126, 218, 13); */
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+#four-con video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#shapeN{
+    height: 1vw;
+    width: 1vw;
+    padding: 0.9vw;
+
+    /* background-color: rgb(26, 223, 8); */
+     border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+     top: 3vw;
+    right: 3vw;
+
+}
+
+#shapeN h2{
+ font-size: 1vw;
+ font-weight: 200;
+ font-family:   'Arial Narrow';
+
+ 
+ }
+
+#page5{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(172, 221, 180); */
+    display: flex;
+   }
+ #pl{
+    height: 100%;
+    width: 42%;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+#chiknaimg{
+    height: 80%;
+    width: 70%;
+    background-color: pink;
+    background-image: url(pic/blezer.jpg);
+     background-size: cover;
+    background-position: center;
+    
+
+  }
+  #pr{
+    height: 100%;
+    width: 58%;
+    /* background-color: red; */
+ }
+ #pr h1{
+    font-size:  2vw;
+    margin: 3vw 1vw 0 1vw;
+     font-family: monument;
+     font-weight: 400;
+     text-transform: uppercase;
+     letter-spacing: 0.3vh;
+ }
+  #pr h3{
+     margin: 1.4vw 1vw 0 1vw;
+     padding: 0;
+     font-family:  Arial;
+     font-weight: 700;
+     width: 35%;
+  }
+
+  #pr p{
+     margin: 3vw 1vw 0 1vw;
+     font-family: sans-serif;
+     font-weight: 400;
+     width: 75%;
+  }
+  #primg{
+     height: 50%;
+ background-color: white;
+ width: 80%;
+ display: flex;
+  margin-left: 1vw;
+  padding: 1vw;
+  margin: 1vw;
+  gap: 1vw;
+    }
+#side1{
+  /* background-color: rgb(176, 46, 46); */
+  height: 80%;
+  width: 40%;
+  background-image: url(pic/sideimg1.jpg);
+   background-size: cover;
+   background-position: top;
+  
+
+  }
+  #side2{
+      /* background-color: rgb(13, 147, 213); */
+        height: 80%;
+        width: 40%;
+        background-image: url(pic/side2.jpg);
+        background-size: cover;
+        background-position: top;
+ 
+
+  }
+  #page6{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(255, 182, 182); */
+    display: flex;
+    padding: 5vw;   
+   }
+
+    #cont2{
+     height: 100%;
+     width: 100%;
+     position: relative;
+     /* background-color: red; */
+    }
+   /* #cont2 video{
+ 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   } */
+
+   #cont2 img{
+ 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   }
+ #shapeR{
+    height: 1vw;
+    width: 1vw;
+    padding: 0.9vw;
+
+    /* background-color: rgb(26, 223, 8); */
+     border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+     top: 3vw;
+    right: 3vw;
+
+}
+
+#shapeR h2{
+ font-size: 1vw;
+ font-weight: 200;
+ font-family:   'Arial Narrow';
+
+ 
+ }
+
+
+ #page7{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(223, 20, 20); */
+    display: flex;
+    padding: 5vw;   
+   }
+
+   #daba{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* background-color: yellowgreen; */
+    justify-content: space-between;
+    padding: 1vw;
+    }
+    #l1{
+     height: 100%;
+     width: 45%;
+     /* background-color: blue; */
+     background-image: url(pic/suiii.webp);
+      background-position: center;
+     background-size: contain;
+      background-repeat: no-repeat;
+    }
+    #l2{
+     height: 100%;
+     width: 55%;
+     padding-left: 5vw;
+     /* background-color: green; */
+      
+    }
+
+    #l2 img{
+     height: 70%;
+     width: 80%;
+     object-fit:cover;
+     object-position:top;
+    }
+
+    #l2con{
+     height: 30%;
+     width: 90%;
+     /* background-color: aqua; */
+     display: flex;
+     align-items: normal;
+      }
+
+      #l2con h3{
+        width: 100%;
+       font-size: 1.4vw;
+        font-weight: 600;
+       font-family: 'Arial Narrow';
+      }
+      /* #l2con p{
+        width: 100%;
+       font-size: 1.1vw;
+        font-weight: 300;
+       font-family: sans-serif;
+       margin-top: 1vw;
+      } */
+#l2con p{
+    font-weight: 400;
+     font-size: 1.5vw;
+    gap: 1vw;
+    margin-left: 1vw;
+    font-family: 'Arial Narrow';
+ }
+
+
+  
+  
+
+
+ 
+
+
+
+ 
+
+ 
