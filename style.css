@@ -45,8 +45,35 @@ body {
     letter-spacing: -1px;
     margin-left: 4vw;
     font-weight: 700;
+    position: relative;
 
 }
+
+#nav h1::after {
+content: "©";
+color: #000000;
+font-family: gilroy;
+font-weight: 300;
+font-size: 18px;
+position: absolute;
+top: 10%;
+ left: 99%;
+}
+
+
+#nav h1::before {
+content: "model managment";
+width: 100%;
+color: #666;
+font-family: gilroy;
+font-weight: 300;
+font-size: 14px;
+letter-spacing: 0.1px;
+position: absolute;
+bottom: 10%;
+left: 50%;
+}
+
 
 #nav h2 {
     /* background-color: orange; */
@@ -199,6 +226,8 @@ body {
     gap: 2.9vh;
     border-bottom: 2px solid #000;
     border-top: 2px solid #000;
+        overflow-x: hidden;
+overflow-y: hidden;
 
 
 }
@@ -615,9 +644,260 @@ body {
     font-family: 'Arial Narrow';
  }
 
+ #pp3{
+    height: 100%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    position: relative;
+    padding: 3vw 5vw;
+ }
+ #pp3>h1{
+    text-align: center;
+    text-transform: uppercase;
+     font-family: monument;
+     font-size: 2.5vw;
+     margin-bottom: 8vh;
+
+ }
+ .elem{
+    height: 15vh;
+    width: 100%;
+    /* background-color: red; */
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    position: relative;
+    transition: all ease 0.7;
+ 
+}
+.elem img{
+ height: 5vw;
+ width: 5vw;
+ position: absolute;
+ border-radius: 50%;
+ object-fit: cover;
+ object-position: top;
+ left: 20%;
+ opacity: 0;
+ transition: all ease 0.7s;
+}
+ .elem h4{
+    font-size: 1.7vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 7%;
+ }
+
+.elem .elemp2{
+    /* background-color: aqua; */
+    width: 40%;
+
+}
+
+.elem .elemp2 h1{
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+
+.elem .elemp2 h5{
+    font-size: 0.7vw;
+    font-weight: 600;
+    text-transform: uppercase;
+ }
+
+
+
+ .elem:nth-last-child(1){
+        border-bottom: 2px solid #000;
+
+ }
+
+.elem:nth-last-child(1) img{
+    left: 40%;
+
+ }
+
+.elem:nth-last-child(3) img{
+    left: 40%;
+
+ }
+
+  .elem:hover{
+    background-color: #e6e6e6;
+  }
+ .elem:hover img{
+    opacity: 1;
+    left: 30%;
+}
+
+#mm2{
+    /* height: 15vh; */
+    width: 100%;
+     white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0.4vw;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#mm2 h1{
+    display: inline-block;
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+    font-family: monument;
+    margin-right: 20px;
+    animation:  mm2anim  5s linear infinite ;
+}
+
+@keyframes  mm2anim {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 20px));
+
+    }
+}
+
+
+
 
   
+  @media (max-width:600px){
+
+
+body{
+overflow-x: hidden;
+overflow-y: hidden;
+}
+#nav {
+height: 7vh;
+margin-top: 20px;
+padding: 0 3vw;
+}
+#nav h1 {
+width: 16%;
+justify-content: flex-start;
+font-size: 20px;
+}
+#nav h1::after {
+display: none;
+}
+#nav h1::before {
+display: none;
+}
+#nav h2 {
+display: none;
+}
+
+#center {
+ 
+    height: 50%;   
+}
+#overly {
+     height: fit-content;
+ }
+#over1 {
+    
+    margin-bottom: 1vw;
+}
+#over1 h1 {
+    font-size: 5vw;
+}
+#over1 h2 {
+    font-size: 2.8vw;
+}
+#over2 img{
+    height: 25%;
+    width: 10%;
+}
+#over2 h4 {
+    font-size: 3vh; 
+}
+
+#scroll {  
+height: 25vw;
+width: 100%;
+margin-bottom: 4vh;
+ }
+#containeer {
+    height: 100%;
+    width: 120%;
+}
+#scroll img {
+    height: 85%;
+     width: 15vw;
+    margin: 1vw;
+}
+
+#alpha {
+    height: 5vh;
+    gap: .8vh;
+}
+#alpha h5 {
+    font-size:  0.68em;;
+    margin-right:2vh ;
+}
+#alpha h6 {
+    font-size: .6em;
+}
+#alpha h6:hover {
+    border: 1px solid #000;
+}
+
+
+#page2 {
+    height: 40%;
+    padding: 2vw 5vw;
+
+}
+
+#pagep1 {
+    height: 90%;
+    width: 50%;
+     
+}
+
+#pagep2 {
+    height: 90%;
+    width: 35%;
+    /* padding: 0 9vh 0 0; */
+    margin-right: 4vw;
+}
+
+#pagep2 img {
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom center;
+}
+
   
+
+ 
+
+  #long-line h1{
+    height: 15%;
+    width: 100%;
+    /* margin-top: 10px; */
+    padding-top: 4vw;
+    padding-left: 8vw;
+    padding-bottom: 3vw;
+    /* background-color: aquamarine; */
+    font-size: 3.1vw;
+    font-weight: 800;
+    font-family: monument;
+  }
+
+  }
+ 
 
 
  
